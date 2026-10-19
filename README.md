@@ -6,7 +6,7 @@ A production-grade microservices architecture deployed on **Amazon ECS Fargate**
 
 ## Architecture
 
-![Architecture Diagram](diagrams/architecture.drawio)
+![Architecture Diagram](diagrams/architecture.png)
 
 The system is composed of three independent microservices behind an **Application Load Balancer**, running on ECS Fargate in private subnets across two Availability Zones.
 

@@ -54,6 +54,7 @@ build/
 
 # Documentation — not included in repo
 *.md
+!README.md
 docs/
 
 # Draw.io temp files

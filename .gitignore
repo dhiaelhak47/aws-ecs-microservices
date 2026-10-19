@@ -15,7 +15,7 @@ coverage/
 
 # Terraform
 .terraform/
-.terraform.lock.hcl
+# .terraform.lock.hcl is intentionally tracked for reproducible provider installs
 terraform.tfstate
 terraform.tfstate.backup
 terraform.tfstate.d/
@@ -57,6 +57,7 @@ build/
 !README.md
 docs/
 
-# Draw.io temp files
+# Draw.io temp and source files
 diagrams/.$*.bkp
 diagrams/.$*.dtmp
+diagrams/*.drawio

@@ -2,6 +2,8 @@
 
 Production-grade AWS infrastructure for a containerized microservices architecture, fully provisioned with **Terraform**. Three independent services run on **ECS Fargate** in private subnets behind an **Application Load Balancer**, with auto scaling, service discovery, and centralized observability.
 
+> **Scope:** This repository covers the **AWS infrastructure only** — VPC, ECS, ALB, ECR, auto scaling, and all supporting services. It does not include application code or container images. Images are built and pushed to ECR separately before the ECS services start.
+
 ---
 
 ## Architecture
